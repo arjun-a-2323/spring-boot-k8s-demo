@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-boot-k8s-demo-config
+data:
+  application.properties: |
+    # Add your properties here
+    my.property=Hello, Kube World!
