@@ -6,3 +6,4 @@ services:
       - 8080:8080
     volumes:
       - ..\..\config\dev\:/config/
+     # - ..\..\config\test\:/config/
