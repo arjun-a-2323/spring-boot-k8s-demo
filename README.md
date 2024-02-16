@@ -34,7 +34,7 @@ minikube -p minikube docker-env | Invoke-Expression
 
 docker build -f .\devops\docker\Dockerfile -t spring-boot-k8s-demo:latest .
 
-kubectl apply -f .\devops\k8s\configmap.yml
+kubectl apply -f .\devops\k8s\configmap-dev.yml
 
 kubectl apply -f .\devops\k8s\deploy.yml 
 
