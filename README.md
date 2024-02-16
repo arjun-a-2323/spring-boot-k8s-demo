@@ -6,7 +6,7 @@ This project is for demonstrating spring boot project which uses external config
 
 Configuration file "application.properties" is kept outside of 'src' folder and maintained as separate files per environment. During runtime, these files are passed with command argument '--spring.config.location' and in container world, the files are mounted as volumes.
 
-This application exposes REST endpoint GET /test is exposed which will return with property value present in application.properties fie which you decided to use.
+This application exposes REST endpoint GET /test which will return with property value present in application.properties fie which you decided to use.
 
 ### Pre-requisite
 
