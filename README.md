@@ -15,7 +15,7 @@ This application exposes REST endpoint GET /test which will return with property
 3. Docker Desktop
 4. Minikube
 
-NOTE: Below commands assume you are running from PROJECT_HOME which is spring-boot-k8s-demo
+NOTE: Below commands assume you are running it from PROJECT_HOME which is spring-boot-k8s-demo
 
 ## Build
 
